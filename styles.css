@@ -21,7 +21,7 @@ body{
 nav{
 text-align: right;
 width: 48%;
-margin-left: 47%;
+margin-left: 49%;
 
 
 
@@ -186,7 +186,7 @@ nav ul li {
 .abbox{
     border: solid white;
     background-color: white;
-    width: 84%;
+    width: 85%;
     margin-left: 7%;
 }
 
@@ -246,8 +246,8 @@ nav ul li {
     border: solid white;
    
     margin-top: 3%;
-    width: 89%;
-    margin-left: 5%;
+    width: 85%;
+    margin-left: 7%;
     background-color:rgb(250, 245, 246) ;
     
 }
@@ -261,7 +261,7 @@ nav ul li {
 }
 
 .box2{
-    border: solid white;
+    border: solid transparent;
     width: 25%;
     height: 300px;
     background-color: palevioletred;
