@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@100&display=swap');
 body{
     background-color: #2A3166;  
+    overflow-x: hidden;
 }
 
 .firstline{
@@ -360,10 +361,12 @@ nav ul li {
     height: 200px;
     margin-top: 15%;
     width: 100%;
+    margin-bottom:-0.5%;
+   
 }
  .address{
     display: flex;
-    padding-top:5%;
+    padding-top:4%;
     
  }
 
