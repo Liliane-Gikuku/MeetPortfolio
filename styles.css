@@ -394,15 +394,56 @@ nav ul li {
 
  .link{
     margin-left: 18%;
+    font-size: 40px;
+    color: white;
+    color:blue;
+    
  }
 
  .Wattpad{
     margin-left: 15%;
+    font-size: 40px;
+    color: orangered;
  }
 
  .cv{
     margin-left: 18%;
  }
+
+ .icon1{
+    margin-left: 270px;
+    font-size: 40px;
+  
+ }
+
+ .icon1 h3{
+    font-size: 17px;
+    margin-left: -22px;
+    margin-top: -2%;
+    border: solid transparent;
+    width: 120px;
+    
+
+ }
+
+ .Wattpad h3{
+    font-size: 17px;
+    margin-top: -2%;
+    margin-left: -22px;
+
+
+ }
+
+
+
+ .link h3{
+    font-size: 17px;
+    margin-top: -2%;
+    margin-left: -38px;
+
+
+ }
+
 
 
 
