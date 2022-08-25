@@ -1,449 +1,592 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@100&display=swap');
 body{
-    background-color: #2A3166;  
+    background-color: black;  
     overflow-x: hidden;
 }
 
 
-    
+.profile {
+    box-shadow: 0 8px 18px 0 rgba(187, 104, 104, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(34, 33, 33);
    
-   
-    
+    height: 300px;
+    margin-top: 9%;
+  }
 
+  .avatar{
+   border-radius: 50%;
+   
+  }
+
+  img{
+   padding-top: 13%;
+  }
+  
+  .head {
+    color:rgb(247, 223, 223);
+    font-size: 18px;
+  }
+  
+  /* button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #ff7200;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  } */
+  
+  .profile h1 {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+  }
+ button a{
+  color: white;
+  text-decoration: none;
+ }
+ button a:hover {
+    color: rgb(119, 7, 69);
+}
+
+ .profile .address{
+    margin-bottom:3%;
+  }
 
 .navbar{
-    margin-top:-3%;
-    background-color:rgb(5, 28, 58);
-    margin-top: -4.7%;
-    width: 100%;
-    height: 10%;
-    padding-top: 1%;
-   
-   
-   
-    
-    
+    background-color:rgb(94, 88, 88);
+    width: 30%;
+    height: 100%;
     
 }
-
-.firstline{
-    margin-right: 81.6%;
-    margin-top: -3%;
-    color: #CAE7DA;
-}
-
 
 
 nav{
-text-align: right;
-width: 48%;
-margin-left: -0.6%;
-position: static;
-position: fixed;
-top: 9.5%;
-
-
-
-
-
-
-
+    text-align: right;
+    /* width: 48%; */
+    position: static;
+    position: fixed;
+    /* top: 9.5%; */
+    margin-top: -1%;
+   
+   
+    
+    
 }
 
 nav ul li {
     list-style: none;
-    display: inline;
+    display: block;
     font-size: 20px;
-    flex-direction:right;
-     padding-right:8%;
-     
-    
-}
-    
-    nav ul li a{
-    color:white;
+    margin-top: 5%;
+    margin-left: 1%;
+    border: solid white;
+    width: 78%;
+    padding: 3%;
+    background-color: white;
+    text-align: center;
     text-decoration: none;
-    padding: 15px;
+    border-radius: 30px;
+    
+    
+    /* padding:2%; */
+   
+}
+nav ul{
+    margin-top: 3%;
+}
+
+nav ul li a{
+    color:rgb(119, 7, 69);
+    text-decoration: none;
+    padding: 2px;
+    font-weight: 700;
     
     }
 
-    .navbar a:hover {
-        background-color:white;
+    .nav ul li a:hover {
+        background-color:rgb(119, 7, 69);
         font-weight: bolder;
-        color: #2A3166;
+        color: black;
         opacity: 0.9;
         
-        padding: 10px;
+        
       }
 
-      
-
-
-.coding{
-    margin-left: 7%;
-    margin-top: 15%;
+.one{
+  margin-left: 30%;
+  transition: width 2s;
+  margin-bottom: 25%;
 }
 
-.open{
-    margin-left: 59%;
-    
-    border: solid transparent;
-    width: 40%;
-    margin-top: -20%;
-    
-}
-.open h2{
-    color:white;
-    font-size: 20px;
-    margin-left: 38%;
-}
-.open p{
-    /*color:yellow;*/
-    color: #CAE7DA;
-    font-size: 30px;
-    font-weight: 400px;
-    margin-left: 22%;
-}
-.open h3{
-    color: white;
-    font-size: 20px;
-    margin-left: 20%;
-    
-}
-
-
-
-   
-   
-
-    .One{
-        background-color: #2A3166;
-        
-        
-        
-        
-    }
-
-    .Two{
-        background-color: white;
-        margin-top: 10%;
-        width: 100%;
-    }
-
-    .title{
-        padding-top: 7%;
-    }
-
-    .title h1{
-        margin-left: 84%;
-        font-size: 40px;
-        color: #EE7879;
-        margin-top: -3%;
-        
-    }
- .box{
-   display: flex;
-   padding-bottom: 8%;
-   
- }
+.opening{
+  margin-left: 15%;
+  padding-top: 13%;
  
- .wattpad{
-    margin-left: 5%;
- }
- .java{
-   margin-left: 5%; 
- }
-
- .python{
-    margin-left: 5%;
-
- }
- .kotlin{
-    margin-left: 5%;
-
- }
- .html{
-    margin-left: 8%;
-
- }
-
- .html p{
-    color: rgb(42, 42, 141);
- }
-
- .kotlin p{
-    color: rgb(42, 42, 141);
- }
-
- .python p{
-    color: rgb(42, 42, 141);
- }
-
- .java p{
-    color: rgb(42, 42, 141);
- }
-
- .wattpad p{
-    color: rgb(42, 42, 141);
- }
-
- .three{
-    background-color: #2A3166;
-    margin-top: 15%;
-    width: 100%;
-   
+}
+.opening h2{
+  color: rgb(252, 237, 242);
+  font-size: 35px;
+  
+ 
 }
 
-.abby{
-    padding-top: 2%;
+.opening p{
+  color: rgb(231, 200, 200);
+  font-size: 60px;
+  margin-top: -1%;
+ 
+}
+
+.opening p span{
+  color: rgb(155, 16, 62);
+}
+
+#description{
+  font-size: 20px;
+  margin-top: -5%;
+}
+.two{
+  margin-left: 30%;
+  transition: width 2s;
+  margin-bottom: 25%;
+  
+}
+#resume{
+  margin-left: 60%;
+  width: 25%;
+  padding: 2%;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color:rgb(155, 16, 62) ;
+  color: rgb(231, 200, 200);
+}
+#resume:hover{
+  background-color:white;
+  border: solid rgb(119, 7, 69);
 }
 
 .abby h1{
-    margin-left: 7%;
-    font-size: 40px;
-    color: #EE7879;
-    margin-top: 4%;
-    
+  font-size: 40px;
+  color: rgb(155, 16, 62);
+  margin-left: 15%;
+}
+hr{
+  margin-left: 15%;
 }
 
-.abbox{
-    border: solid white;
-    background-color: white;
-    width: 85%;
-    margin-left: 7%;
+.abby p{
+  color: rgb(231, 200, 200);
+  font-size: 20px;
+  margin-left: 47%;
+  margin-top:-45% ;
 }
 
-.abbox p{
-    font-size: 30px;
-    margin-left: 8%;
+.coder{
+  margin-left: 5%;
+  margin-top: -8%;
+}
+.abby #poems{
+  color: rgb(231, 200, 200);
+  font-size: 20px;
+  margin-left: 47%;
+  margin-top: 6%;
 }
 
-.four{
-    background-color: #2A3166;
-    margin-top: 15%;
-    width: 100%;
-   
+.abby #pieces{
+  color: rgb(231, 200, 200);
+  font-size: 18px;
+  margin-left: 47%;
+  margin-top: 5%;
+  
 }
 
-.title4{
-    padding-top: 2%;
+#pieces a{
+  text-decoration: none;
+  color: palevioletred;
 }
 
-
-
-
-.Four{
-    background-color: rgb(100, 72, 78);
-    width: 90%;
-    height: 100%;
-    margin-left: 5%;
-      
-}
-/* .title5{
-    margin-left: 28%;
-    margin-top: 2.7%;
-    border: solid transparent;
-    width: 40%;
-    
-} */
-
-.title5 h1{
-    margin-left: 7%;
-    font-size: 40px;
-    color: #EE7879;
-    margin-bottom: 5%;
-}
-.title5 p{
-    font-size: 20px;
-    color: rgb(0, 225, 255);
-    font-weight: bolder;
-    margin-left: 7%;
-    border: solid transparent;
-    width: 800px;
-    margin-top: -2%;
-    font-size: 30px;
-}
-.boxes{
-    display: flex;
-    
-    border: solid white;
-   
-    margin-top: 3%;
-    width: 85%;
-    margin-left: 7%;
-    background-color:rgb(250, 245, 246) ;
-    
+.abby #pieces a:hover{
+color: white;
 }
 
-.box1{
-    border: solid transparent;
-    width: 25%;
-    height: 300px;
-    background-color: white;
-    
+.three{
+  margin-left: 30%;
+  margin-bottom: 18%;
+  transition: width 2s;
 }
 
-.box2{
-    border: solid transparent;
-    width: 25%;
-    height: 300px;
-    background-color: palevioletred;
+.title h1{
+  font-size: 40px;
+  color: rgb(155, 16, 62);
+  margin-left: 15%;
 }
 
-.box3{
-    border: solid transparent;
-    width: 25%;
-    height: 300px;
-    background-color: rgb(220, 238, 252);
-   
-
+.title hr{
+  margin-right: 4%;
 }
 
-.box4{
-    border: solid transparent;
-    width: 25%;
-    height: 300px;
-    background-color: rgb(245, 205, 63);
-   
-
+.youthpad{
+  margin-left: 15%;
+  margin-top: -7%;
+}
+.youthpad h2{
+  color:rgb(231, 200, 200) ;
+  font-size: 18px;
+}
+.youthpad img:hover{
+  background-color: black;
+}
+.web{
+  display: flex;
+  margin-top: 9%;
+  
 }
 
-.box4 h3{
-    font-size: 15px;
+.abu{
+  margin-left: 3%;
+  margin-top: -7%;
 }
 
-
-.box4 h2{
-    margin-left: 8%;
-    color:azure;
-    margin-top:10%;
-   
-}
-.koty{
-    margin-left: 7%;  
-    margin-top: 10%;
-}
-.box4 h3{
-    font-size: 17px;
-    color: azure;
+.abu h2{
+  color:rgb(231, 200, 200) ;
+  font-size: 18px;
 }
 
-.box1 h2{
-    margin-left: 8%;
-    color:rgb(63, 20, 4);
-    margin-top: -30%;
+.petnwork{
+  display: flex;
+  margin-top:-1%;
 }
-.websites{
-    margin-left: 7%;  
-    margin-top: 10%;
+.wallet{
+  margin-left: 3%;
 }
-.box1 h3{
-    font-size: 17px;
+
+.wallet h2{
+  color:rgb(231, 200, 200) ;
+  font-size: 18px;
+}
+
+.petclinic{
+  margin-left: 15%;
+}
+
+.petclinic h2{
+  color:rgb(231, 200, 200) ;
+  font-size: 18px;
+}
+
+.mobile{
+  display: flex;
 }
 
 
-.box2 h2{
-    margin-left: 8%;
-    color:white;
-    margin-top: -30%;
-}
-.design{
-    margin-left: 7%;  
-    margin-top: 10%;
-}
-.box2 h3{
-    font-size: 17px;
-    color: white;
+.fivestar{
+  margin-left: 3%;
 }
 
-
-
-.box3 h2{
-    margin-left: 8%;
-    color:rgb(63, 20, 4);
-    margin-top: -30%;
-}
-.pyth{
-    margin-left: 7%;  
-    margin-top: 10%;
-}
-.box3 h3{
-    font-size: 17px;
-    color: rgb(63, 20, 4);
+.fivestar h2{
+  color:rgb(231, 200, 200) ;
+  font-size: 18px;
 }
 
-
-
-.x,.y,.z{
-    margin-top: 40%;
+.workout{
+  margin-left: 15%;
+}
+.workout h2{
+  color:rgb(231, 200, 200) ;
+  font-size: 18px;
 }
 
-.footer{
-    background-color: beige;
-    height: 200px;
-    margin-top: 15%;
-    width: 100%;
-    margin-bottom:-0.5%;
-   
-}
- .address{
-    display: flex;
-    padding-top:4%;
-    
+/* Parent Container */.youthpad{
+  position: relative;
+  float: left;
+  
  }
-
- .link{
-    margin-left: 18%;
-    font-size: 40px;
-    color: white;
-    color:blue;
-    
+ 
+ /* Child Text Container */.youthpad div{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  /* margin-top: 15%; */
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
  }
-
- .Wattpad{
-    margin-left: 15%;
-    font-size: 40px;
-    color: orangered;
+ 
+ /* Hover on Parent Container */.youthpad:hover{
+  cursor: pointer;
  }
-
- .cv{
-    margin-left: 18%;
- }
-
- .icon1{
-    margin-left: 270px;
-    font-size: 40px;
+ 
+ .youthpad:hover div{
+  width: 270px;
+  height: 50px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.9; 
+  margin-bottom: 15%;
   
  }
 
- .icon1 h3{
-    font-size: 17px;
-    margin-left: -22px;
-    margin-top: -2%;
-    border: solid transparent;
-    width: 120px;
-    
-
+ /* Parent Container */.abu{
+  position: relative;
+  float: left;
+  
+ }
+ 
+ /* Child Text Container */.abu div{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  /* margin-top: 15%; */
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+ }
+ 
+ /* Hover on Parent Container */.abu:hover{
+  cursor: pointer;
+ }
+ 
+ .abu:hover div{
+  width: 270px;
+  height: 50px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.9; 
+  margin-bottom: 15%;
  }
 
- .Wattpad h3{
-    font-size: 17px;
-    margin-top: -2%;
-    margin-left: -22px;
-
-
+ /* Parent Container */.petclinic{
+  position: relative;
+  float: left;
+  
  }
 
-
-
- .link h3{
-    font-size: 17px;
-    margin-top: -2%;
-    margin-left: -38px;
-
-
+ /* Child Text Container */.petclinic div{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  /* margin-top: 15%; */
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+ }
+ 
+ /* Hover on Parent Container */.petclinic:hover{
+  cursor: pointer;
+ }
+ 
+ .petclinic:hover div{
+  width: 270px;
+  height: 50px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.9; 
+  margin-bottom: 15%;
  }
 
+ /* Parent Container */.wallet{
+  position: relative;
+  float: left;
+  
+ }
+
+ /* Child Text Container */.wallet div{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  /* margin-top: 15%; */
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+ }
+ 
+ /* Hover on Parent Container */.wallet:hover{
+  cursor: pointer;
+ }
+ 
+ .wallet:hover div{
+  width: 270px;
+  height: 50px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.9; 
+  margin-bottom: 15%;
+ }
+
+ /* Parent Container */.workout{
+  position: relative;
+  float: left;
+  
+ }
+
+ /* Child Text Container */.workout div{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  /* margin-top: 15%; */
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+ }
+ 
+ /* Hover on Parent Container */.workout:hover{
+  cursor: pointer;
+ }
+ 
+ .workout:hover div{
+  width: 270px;
+  height: 50px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.9; 
+  margin-bottom: 15%;
+ }
+
+ /* Parent Container */.fivestar{
+  position: relative;
+  float: left;
+  
+ }
+
+ /* Child Text Container */.fivestar div{
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  /* margin-top: 15%; */
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+ }
+ 
+ /* Hover on Parent Container */.fivestar:hover{
+  cursor: pointer;
+ }
+ 
+ .fivestar:hover div{
+  width: 270px;
+  height: 50px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.9; 
+  margin-bottom: 15%;
+ }
+
+ .footer{
+  background-color: rgb(22, 21, 21);
+  height: 400px;
+  transition: width 2s height 2s;
+  
+ }
+
+ .address{
+ 
+  padding-top:8%;
+  margin-left: 57%;
+ 
+ 
+  
+  
+}
+
+.linkedin{
+  
+  font-size: 45px;
+  color:rgb(231, 200, 200);
+  margin-right: 10%;
+ 
+  
+  
+}
+
+
+
+.github{
+  
+  font-size: 45px;
+  color: rgb(231, 200, 200);
+  margin-right: 10%;
+  
+
+}
+
+
+
+
+  
+
+.twitter{
+  
+  font-size: 45px;
+
+  color: rgb(231, 200, 200);
+  width: 23px;
+  
+ 
+}
+.instagram{
+  
+  font-size: 45px;
+  margin-left: 17%;
+  /* color: rgb(231, 200, 200); */
+  
+ 
+ 
+}
+
+.title2 h1{
+  color: rgb(155, 16, 62) ;
+  
+  font-size: 50px;
+  margin-top: -5%;
+  
+}
+
+.links{
+  margin-top: 10%;
+  display: flex;
+  margin-right: 62%;
+  
+}
+
+.title2 hr{
+ margin-left: 1%;
+}
+
+
+  
 
 
 
